@@ -1,0 +1,426 @@
+body{width: 100%; height:100%; padding:0px; margin:0 auto; /*-webkit-font-smoothing: antialiased*//*background-color: #DBDBDB */}
+#container{
+	width:100%; 
+	padding:0px; margin:0px;
+}
+
+
+/* THIET LAP PHAN DAU WEB */
+#banner img{
+	width:100%; margin-bottom: 0px;
+	height:250px
+}
+#header-nav{
+	height:30px; width:1000px; margin:0 auto;
+	background-color:#C72238; border-top: 1px solid #CCCCCC;
+	padding: 2px 0px 5px 0px; margin-bottom:5px
+}
+ul.nav-btn{
+	height:18px; width:1000px; 
+	padding-left:200px; 
+	top:-8px; text-align:center; position:relative
+}
+ul.nav-btn li{
+	float: left; list-style-type:none; 
+}
+ul.nav-btn li a{
+	text-decoration: none; color: #FFFFFF;
+	font-weight:bold; font-size: 14px; padding-right:30px;
+	text-transform: uppercase; white-space: nowrap;
+	transition-property: color; transition-duration:1s
+}
+ul.nav-btn li a:hover{color: #CCCCCC
+}
+
+/* THIET LAP PHAN THAN */
+#content{
+	width:1000px; min-height:650px;
+	margin:0 auto; margin-bottom:30px;
+
+}
+		/* ---------- PHAN MENU LEFT ----------- */
+.left{
+	width: 190px; float:left; display:block;
+	margin-top:10px
+}
+.menu-left-title {
+	font-size:17px; margin: 0 0 10px 0; 
+	padding: 0 0 5px 0; border-bottom: 4px solid #C72238;
+	font-weight: bold; transform: uppercase; font-family: Arial, sans-seif
+}
+.menu-left-title a{
+	color:/*#3AD365*/#3A69F7; text-decoration:none
+}
+ul.list-menu-left{
+	list-style-type: none; margin: 15px 0px 5px 5px; padding:0px
+}
+ul.list-menu-left li{
+	padding: 5px 0px 5px 0px; border-bottom: 1px solid #CCCCCC
+}
+ul.list-menu-left li a{
+	padding-left:15px; font-weight:bold; font-size: 14px;
+	text-decoration:none; color: #4D4D4D; 
+	font-family: Arial sans-seif; font-size: 15px;
+	transition-duration:1s; transition-property:color
+}
+ul.list-menu-left li a:hover{
+	color:#CCCCCC
+}
+ul.list-menu-left li a img{
+	width: 10px; height: 10px; display: inline-block; vertical-align:middle;
+	padding: 0 5px 3px 0px; margin:0
+}
+.see-more a{
+	text-decoration:none; color:#C72238; float: right;
+	margin: 4px 2px;
+	font-size:12px; font-family: Arial, sans-seif;
+	transition-duration:1s; transition-property: color
+}
+.see-more a:hover{
+	color: #7B8AAB
+}
+		/* ---------- PHAN MENU CENTER ----------- */
+.center{
+	float: left; width: 540px; 
+	min-height:630px;
+	height:auto;
+	padding: 0px 20px; margin-top:5px /*background-color:#CCCCCC*/
+}
+			/* @@@ PHAN TIN TUC @@@*/
+.title-news{
+	margin: 5px 0 10px 0; padding: 0 0 5px 0; font-size: 17px;
+	color: /*#3AD365*/#3A69F7; border-bottom: 4px solid #C72238; font-weight:bold;
+	font-family:Arial, sans-seif
+	
+}
+.news-item{
+	width:540px; /*border-bottom:1px solid #CCCCCC;*/ float:left;
+	padding: 10px 0px 10px 0px
+}
+
+.news-item img{width:100px;height:140px}
+.intro-item{
+	width:430px;font-size:15px;float:right
+}
+a.title-item{
+	color:#4D4D4D;text-decoration:none; font-family:Arial, sans-seif;
+	font-weight:bold
+}
+.date-post{
+	font-size:11px; font-family:Arial, sans-seif; color:#666
+}
+span.info-item{
+	font-family:Arial, sans-seif; font-size:13px;word-wrap: break-word;
+}
+.more-info a {
+	text-decoration:none; color:#C72238; margin-right:30px ;
+	margin: 4px 2px;
+	font-size:12px; font-family: Arial, sans-seif;
+	transition-duration:1s; transition-property: color
+}
+/*PHAN DANG KY*/
+.menu-right {width:500px; min-height:400px; 
+	margin:0 auto; margin-top:10px;}
+.header-menu-right {width:500px; height:50px;
+	border-bottom:1px solid #CCCCCC; margin-bottom:10px; }
+.header-menu-right span {
+	font-size:28px; color: #C72238;
+	top:10px;
+	left:0px; position:relative;
+	font-family:Arial, sans-seif}
+.content-menu-right {width:400px; min-height:300px;margin:0 auto}
+.content-menu-right span{
+	font-family:Arial, sans-seif; font-size:20px; margin-bottom:20px;
+	color:#4D4D4D
+}
+.name {font-size:20px;width:184px; border-radius:3px; 
+	border:1px solid #CCCCCC; padding:3px 0 3px 5px; margin-bottom:5px}
+.long {font-size:20px;width:380px; border-radius:3px; 
+	border:1px solid #CCCCCC; padding:3px 0 3px 5px; margin-bottom:5px}
+.day-time {width:90px; padding:5px 7px;border:1px solid #CCCCCC}
+.gender {width:130px; padding: 5px 7px; margin-bottom:5px}
+.submit {width:180px;border-radius:4px; border:1px solid #CCCCCC;
+	padding:5px 0;font-size: 20px;
+	font-family:Arial, sans-seif; color:#4D4D4D}
+/*PHAN DANG NHAP*/
+.long-nhap {font-size:20px;width:330px; border-radius:3px; 
+	border:1px solid #CCCCCC; padding:3px 0 3px 5px; 
+	margin-top:5px;margin-bottom:5px;}
+.submit-nhap {width:120px;border-radius:4px; border:solid 1px #CCCCCC;
+	font-family:Arial, sans-seif; font-size:16px; font-weight:bold;
+	left:110px; position:relative;
+	padding:5px 0;margin-top: 5px}
+.content-menu-right a{
+	color:#C72238; text-decoration:none;font-size:15px;
+}
+span.name-login{
+	font-family:Arial, sans-seif; font-size:20px; margin-bottom:20px;
+	color:font-family:Arial, sans-seif; font-size:20px; margin-bottom:20px;
+	color:#C72238
+}
+span.k_login{
+	color:#4D4D4D; font-size:15px; 
+	font-family: Arial, sans-seif; font-weight:bold;
+}
+		/*~~~^O^~~~$$$$$$$$$$$ PHAN THONG TIN SAN PHAM $$$$$$$$$$$$ ~~~^O^~~~*/
+.info-item-box{
+	width:550px; min-height: 500px; float:left
+}
+.item-img img{
+	float:left; width: 180px; height: 260px
+}
+.detail-tbl{
+	padding-left:15px
+}
+.detail-tbl tbl {width:360px; margin: 0 auto}
+.detail-tbl tr td{
+	font-family: Arial, sans-seif; font-size: 14px; color: #000000;
+	float:left; padding: 0px 5px 4px 0px
+}
+tr td .item-name{
+	font-family: Arial, sans-seif; font-size: 20px; color: #4D4D4D; float:left
+}
+.category{
+	font-family: Arial, sans-seif; font-size:14px; text-decoration:none;
+	color: #C72238
+}
+.btn_borrow{
+width: 200px; height: 40px; background-color:#3E58A0; border-radius: 4px;
+font-family: Arial, sans-seif; font-size:17px; color: #FFFFFF; font-weight:bold;
+border: 1px solid #CCCCCC
+}
+.prd-desc{
+	min-height:500px; width:530px;float:left;
+}
+/*.prd-desc span{
+	color:#6287F5;font-size:18px; 
+	font-family: Arial, sans-seif; 
+}*/
+.tabs input[type=radio]
+{
+	position:relative; top:-9999px; left:-9999px
+}
+
+.tabs{
+		width: 550px; float: none; list-style: none;
+		position: relative; padding: 0; margin: 10px auto;
+}
+.tabs li {
+	float:left;
+}
+.tabs label{
+	display: block; padding:10px 20px; border-radius:2px 2px 0 0;
+	color: #C72238; font-size: 21px; font-weight:normal;
+	font-family:'Lily Script One', helveti;
+	background:rgba(255,255,255,0.2); cursor: pointer;
+	position:relative; top: 3px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.tabs label:hover{
+	background:rgba(255,255,255,0.5); top: 0;
+}
+[id^=tab]:checked + label {
+	background:  #C72238; color: white; top: 0;
+	text-transform: uppercase;
+}
+[id^=tab]:checked ~ [id^=tab-content]{display: block}
+.tab-content{
+	z-index: 2; display: none; text-align: left; width: 530px; font-size: 20px;
+	line-height: 130%; padding-top: 10px; background: #C72238; padding: 15px; 
+	color: white; position: absolute; top: 53px; left: 0; 
+	box-sizing: border-box;
+	-webkit-animation:0.5s;
+	-o-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+	/*PHAN COMMENT */
+.cmts_area{
+	width: 540px; height: 300px;float:left
+}
+.cmts_area table tr td span{
+	color: #C72238; font-family: Arial, sans-seif; font-size:18px
+}
+.user_img  img{
+width: 70px; height:50px; float: left; margin-top: -5px; margin-bottom:5px
+}
+
+.user_name{
+	font-size: 18px; font-family: Arial, sans-seif; 
+	float:left; margin-left:10px; font-weight:bold; color: #4D4D4D
+}
+.rate_content{margin-left:10px; float:left}
+.cmt_content{
+	font-family:Arial, sans-seif; font-size: 16px; float:left; margin-left:10px;
+	width: 400px; height: 100px; border-radius: 4px; margin-top: 5px; margin-bottom:5px
+}
+.btn_comment{
+	float:left; height: 30px; width: 100px; border-radius: 4px;
+	font-size:16px; font-family:Arial, sans-seif; color: #C72238;
+	background-color: #DBC9C9; font-weight:bold;
+	border: 1px solid #CCCCCC; margin: 5px 220px; 
+}
+/*.prd-desc p{
+	font-size:16px; color:#000000;font-family:Arial, sans-seif
+}
+.cmts{
+	border-bottom: 4px solid #C72238
+}
+.cmts span{
+	color: #3A69F7; font-family:Arial, sans-seif; 
+	font-size:18px; font-weight:bold;
+
+}*/
+/* ---------- PHAN RIGHT ----------- */
+.right{
+	float:right; width:230px; margin-top:10px;
+
+}
+		/*@@@@@ PHAN TIM KIEM @@@@@*/
+.search-form{
+	width: 230px;
+	margin-top:0px; margin-bottom:10px;
+	border-radius:4px;
+}
+.quick-search{
+	width:160px; border: 1px solid #CCCCCC; border-radius:4px;
+	padding:5px 7px; margin: 5px 2px 5px 5px
+}
+.search-btn{  padding: 5px 7px;
+	font-weight:bold; font-family: Arial, sans-seif; 
+	color: #FFFFFF; background-color: #C72238;
+	border: 1px solid #CCCCCC; border-radius: 4px;
+}
+.search-form a {
+	text-decoration:none; font-family: Arial, sans-seif;
+	font-size: 15px; color: #466199; margin:4px
+}
+			/* @@@@@@@@@ PHAN TIM KIEM NANG CAO @@@@@@@@@@ */
+.content_fsearch{
+	margin: 10px 10px; width:540px;
+}
+.content_fsearch table{
+	margin: auto 0; 
+}
+.content_fsearch table tr td span{
+	font-size: 18px; font-family: Arial, sans-seif; margin-bottom:5px;
+	color:#4D4D4D;
+}
+.tit_general{
+	width:300px; padding: 3px 7px; font-size: 15px;
+	font-family: Arial, sans-seif; margin: 5px
+}
+		/* @@@ PHAN MENU RIGHT @@@ */
+.title-right{
+	font-family:Arial, sans-seif; font-weight:bold; 
+	background-color: #C72238; font-size:13px;
+	color: #FFFFFF; padding:5px 0px; margin-bottom:10px;
+	text-align:center
+}
+.demo-new-book{
+	border-bottom: 1px solid #CCCCCC;
+	float: left; padding: 5px 0px 5px 0px;
+	margin: 2px 0px; width:230px
+}
+.new-book{
+	padding-top:5px; width:230px; min-height:460px
+}
+.new-book img{
+	float: left; padding: 0px 10px 0px 0px; width:50px
+}
+.list-menu-right{
+	width:170px; float:right; font-size:14px
+}
+a.newest-book {
+	text-decoration: none; color: #C72238; font-family: Arial, sans-seif;
+}
+span.right-author{
+	float:left; font-family: Arial, sans-seif;
+	color: #666; margin-top: 5px
+}
+span.right-views{
+	width: 170px;
+	float:left; font-family: Arial, sans-seif;
+	color: #000000; margin-top: 5px; font-size:11px
+}
+		/* ---------- PHAN MENU FOOTER ----------- */
+#footer{
+	float:left; 
+	width:100%; height:50px;margin-top:20px;
+	background-color: #C72238; clear:both
+}
+.author{
+	text-align:center;
+	top:15px;
+	position: relative
+}
+.author span{
+	font-size:20px; color:#CCCCCC; font-family: Arial, sans-seif;
+	font-weight: bold
+}
+/* @@@@@@@@ PHAN USER @@@@@@@@@ */
+.center_user {
+	width:770px; min-height: 700px; background-color: #FFFFFF;
+	float:left
+}
+.user_tit{
+	width: 770px; border-bottom: 1px solid #CCCCCC; margin-bottom:10px; padding-bottom: 5px
+}
+.user_tit span{
+	font-size: 20px; font-family: Arial, sans-seif; font-weight: bold
+}
+.dashboard_welcome span{
+	width: 770px; font-size: 16px; font-family: Arial, sans-seif; font-weight: bold
+}
+.acc_box{
+	width:770px; min-height:400px; border: 1px solid #CCCCCC; margin-top: 10px
+}
+.tit_acc{
+	margin: 15px 15px; border-bottom: 1px solid #CCC; width: 730px; padding-bottom: 5px
+}
+.tit_acc span{
+ font-family: Arial, sans-seif; font-size: 18px; color: #C72238; 
+}
+.avarta_box {
+	width:175px; margin-right: 20px; float: left; 
+}
+.avarta_box table tr td{
+	padding-right: 10px
+}
+.user_avatar{
+	width:180px; height:180px; border:1px solid #CCCCCC; margin-left:20px; 
+	margin-bottom:10px; margin-right:20px; float:left
+}
+.btn_up_photo{
+	text-align: bottom
+}
+.btn_photo{
+	margin-left: 20px
+}
+.tbl_detail_user{
+	float: right; width: 570px; min-height: 300px;
+}
+.tbl_detail_user table{
+	margin: 0 auto
+}
+.tbl_detail_user tr td { padding: 5px 5px}
+.tbl_detail_user span {
+	font-size: 18px; color: #4D4D4D; font-family: Arial, sans-seif; 
+	font-weight: bold; 
+}
+.edit_profile a{
+font-family: Arial, sans-seif; font-size: 13px; color: #C72238;
+text-decoration: none 
+}
+		/*@@@@@@ THEM MOI BAI GIOI THIEU @@@@@*/
+.text_content{
+width: 450px;
+height: 150px;
+border-radius: 4px; margin-bottom:10px
+}
+.msg{
+	color: #FF4747; font-family: Arial, sans-seif; font-size: 17px; font-weight:bold
+}
